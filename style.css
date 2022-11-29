@@ -1,0 +1,99 @@
+img {
+  width: 98%;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+header {
+  background-color: rgb(147, 121, 128);
+  border-radius: 1rem;
+  text-align: right;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgba(229, 215, 204, 0.753);
+}
+#homepage {
+  background-image: url(baggrund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  font-family: "Cutive Mono", monospace;
+}
+header a {
+  margin-left: 6rem;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: rgb(2, 2, 2);
+  font-weight: bolder;
+}
+h1 {
+  font-family: "Cutive Mono", monospace;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Cutive Mono", monospace;
+  font-size: 2rem;
+}
+p {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.2rem;
+}
+/***Foto***/
+
+.grid_2_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_2_2 img {
+  align-self: stretch;
+  object-fit: cover;
+}
+
+/****Video**/
+.grid_3_2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid_3_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+iframe {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+}
+.grid_4_1 {
+  display: grid;
+}
